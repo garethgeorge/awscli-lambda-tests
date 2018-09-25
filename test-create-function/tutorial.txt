@@ -1,0 +1,1 @@
+https://medium.com/@jacobsteeves/aws-lambda-from-the-command-line-7efab7f3ebd9

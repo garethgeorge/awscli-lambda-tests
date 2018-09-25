@@ -1,0 +1,21 @@
+ {
+    "LambdaFunctionConfigurations": [
+        {
+            "LambdaFunctionArn": "arn:aws:lambda:function:handler",
+            "Events": [
+                "s3:ObjectCreated:*"
+            ],
+            "Filter": {
+                "Key": {
+                    "FilterRules" : [
+                        {
+                            "Name" : "prefix",
+                            "Value" : "test"
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
+
